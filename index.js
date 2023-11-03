@@ -36,8 +36,7 @@ output: { even: 100, odd: 100 } // 100 это для примера, сумма 
 
 // const arr = [1,2,3,4,5,6,7,8,9,10,11, 100, 200, 300];
 // const result = arr.reduce( (acc, currItem) => {
-//     let key = currItem % 2 === 0 ? 'even' : 'odd';
-//     acc[key] += currItem;
+//     currItem % 2 === 0  ? acc.even += currItem : acc.odd += currItem;
 //     return acc;
 // }, {even: 0, odd: 0});
 // console.log(result)
@@ -123,6 +122,9 @@ C помощью reduce
 //   });
   
 //   console.log(fruits);
+
+
+
 
 
 
